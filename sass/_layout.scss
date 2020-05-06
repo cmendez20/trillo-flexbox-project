@@ -1,0 +1,46 @@
+.container {
+  max-width: 120rem; 
+  // max-width: if we have enough space, then we will occupy 1200px. If not, then the element will take up 100% of available viewport width. 
+  margin: 8rem auto;
+  background-color: var(--color-grey-light-2);
+  box-shadow: var(--shadow-dark);
+
+  min-height: 50rem;
+}
+
+.header {
+  font-size: 1.4rem;
+  height: 7rem;
+  background-color: #fff;
+  border-bottom: var(--color-grey-light-2);
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+}
+
+.sidebar {
+  background-color: var(--color-grey-dark-1);
+
+  flex: 0 0 18%;
+  // flex-grow is set to 0 because we don't want the element to grow if there is space available. We also don't want it to shrink, so flex-shrink 0. 
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hotel-view {
+  
+  flex: 1;
+  // by using flex 1, the element can grow as much as it can. 
+
+  //testing purposes
+  background-color: orangered;
+  height: 80rem;
+  
+}
