@@ -1,3 +1,3 @@
 # Trillo Flexbox Project 
 
-A practice website for utilizing CSS Flexbox. 
+A website project for practicing flexbox. 
